@@ -1,1 +1,79 @@
-// Specific CSS for your home-page
+body {
+  background: #000;
+  margin:0
+}
+
+canvas {
+  display:block;
+  background: linear-gradient(#010 0%, transparent 20%);
+  background-size: 5px 5px;
+}
+
+textarea {
+  height: 60%;
+  width: 50%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-family: 'B612 Mono', monospace;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+textarea:focus {
+  outline: none;
+}
+a {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-family: 'B612 Mono', monospace;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+.pink-pill {
+  background: linear-gradient(to right, #990073 50%,  #ff33cc 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  padding: 20px;
+  border-radius: 30px;
+  top: 75%;
+  left: 30%;
+  transition: all .5s ease-out;
+  display: none;
+  box-shadow: 0 3px 6px black, 0 3px 6px black;
+  &:hover {
+    background-position: left bottom;
+    color: #990073;
+  }
+}
+.blue-pill {
+  background: linear-gradient(to right, #000099 50%,  blue 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  padding: 20px;
+  border-radius: 30px;
+  top: 75%;
+  left: 70%;
+  transition: all .5s ease-out;
+  display: none;
+  box-shadow: 0 3px 6px black, 0 3px 6px black;
+  &:hover {
+    background-position: left bottom;
+    color: #000099;
+  }
+}
+
+.mom, .dad {
+  font-family: 'B612 Mono', monospace;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  color: white;
+}
