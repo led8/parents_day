@@ -43,9 +43,10 @@ a {
   border-radius: 30px;
   top: 75%;
   left: 30%;
-  transition: all .5s ease-out;
+  transition: all .3s ease-out;
   display: none;
   box-shadow: 0 3px 6px black, 0 3px 6px black;
+  border-bottom: 10px solid #990073;
   &:hover {
     background-position: left bottom;
     color: #990073;
@@ -59,9 +60,10 @@ a {
   border-radius: 30px;
   top: 75%;
   left: 70%;
-  transition: all .5s ease-out;
+  transition: all .3s ease-out;
   display: none;
   box-shadow: 0 3px 6px black, 0 3px 6px black;
+  border-bottom: 10px solid #000099;
   &:hover {
     background-position: left bottom;
     color: #000099;
@@ -77,3 +79,5 @@ a {
   display: none;
   color: white;
 }
+
+

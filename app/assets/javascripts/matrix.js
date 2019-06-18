@@ -102,6 +102,7 @@ let canvas = document.querySelector('canvas');
 let links = document.querySelectorAll('a');
 let mom = document.querySelector('.mom');
 let dad = document.querySelector('.dad');
+let reload = document.querySelector('.reload');
 
 let animateInput = (input) => {
   if (input.length == 0) return;
@@ -141,6 +142,10 @@ pinkPill.addEventListener("click", (event) => {
   setTimeout(() => {
     mom.style.display = "block";
   }, 7000);
+
+  setTimeout(() => {
+    reload.style.display = "block";
+  }, 9000);
 });
 
 bluePill.addEventListener("click", (event) => {
@@ -162,7 +167,6 @@ bluePill.addEventListener("click", (event) => {
     dad.style.display = "block";
   }, 7000);
 });
-
 
 
 
